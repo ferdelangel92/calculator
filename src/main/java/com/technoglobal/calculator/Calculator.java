@@ -34,15 +34,15 @@ public class Calculator {
 	    }
 	    if(operation == "-");
 	    {
-		    System.out.println("your answer is: " + (num1 + num2));
+		    System.out.println("your answer is: " + (num1 - num2));
 	    }
 	    if(operation == "*");
 	    {
-		    System.out.println("your answer is: " + (num1 + num2));
+		    System.out.println("your answer is: " + (num1 * num2));
 	    }
 	    if(operation == "/");
 	    {
-		    System.out.println("your answer is: " + (num1 + num2));
+		    System.out.println("your answer is: " + (num1 / num2));
 	    }
     }
 }
