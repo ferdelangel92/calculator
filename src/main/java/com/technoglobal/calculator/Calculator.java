@@ -20,8 +20,7 @@ public class Calculator {
 	System.out.println("0. Exit");
 	System.out.println("\n");
 	    
-	System.out.println("Enter your choice");
-	
+	System.out.println("Enter your choice");	
 	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	String str = br.readLine();
 	
@@ -40,9 +39,9 @@ public class Calculator {
 		    case 4:
 			    doDivision();
 			    break;
-		    case 0:
-			    doAddition();
+		    case 0:			    
 			    System.out.println("Goodbye :D");
+			    break;
 		    default:
 			    System.out.println("Invalid Value");
 	    }
@@ -54,12 +53,12 @@ public class Calculator {
 	    System.out.println("******* Enter in Addition Process ********");
 	    
 	    System.out.println("Enter number: ");
-	    BufferedReader br= new BufferedReader(new InputStreamReader(System.in));
+	    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	    strNo1 = br.readLine();
 	    
 	    System.out.println("Enter number: ");
-	    BufferedReader br1 = BufferedReader(new InputStreamReader(System.in));
-	    strN2 = br1.readLine();
+	    BufferedReader br1 = new BufferedReader(new InputStreamReader(System.in));
+	    strNo2 = br1.readLine();
 	    
 	    int no1 = Integer.parseInt(strNo1);
 	    int no2 = Integer.parseInt(strNo2);
