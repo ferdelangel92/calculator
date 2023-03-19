@@ -76,11 +76,11 @@ public class Calculator {
 		    String strNo1, strNo2;
 		    
 		    System.out.println("Enter number: ");
-		    BufferedReader br = BufferedReader(new InputStreamReader(System.in));
+		    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		    strNo1 = br.readLine();
 		    
 		    System.out.println("Enter number: ");
-		    BufferedReader br1 = BufferedReader(new InputStreamReader(System.in));
+		    BufferedReader br1 = new BufferedReader(new InputStreamReader(System.in));
 		    strNo2 = br1.readLine();
 		    
 		    int no1 = Integer.parseInt(strNo1);
@@ -123,7 +123,7 @@ public class Calculator {
 		    
 		    System.out.println("Enter number: ");
 		    BufferedReader br1 = new BufferedReader(new InputStreamReader(System.in));
-		    str2 = br1.readLine();
+		    strNo2 = br1.readLine();
 		    
 		    int no1 = Integer.parseInt(strNo1);
 		    int no2 = Integer.parseInt(strNo2);
