@@ -45,11 +45,11 @@ public class Calculator {
 				System.out.println("Invalid Value");
 		}
 
-		System.out.println(":::::::::::::::::::::End:::::::::::::::::::");
+		System.out.println("Goodbye");
 	}
 
 	public static void doAddition() throws Exception {
-		System.out.println("******* Enter in Addition Process ********");
+		System.out.println("Addition");
 
 		String strNo1, strNo2;
 
@@ -66,11 +66,11 @@ public class Calculator {
 
 		int result = no1 + no2;
 
-		System.out.println("Addition of " + no1 + " and " + no2 + "is: " + result);
+		System.out.println("Addition of " + no1 + " and " + no2 + " is: " + result);
 	}
 
 	public static void doSubstraction() throws Exception {
-		System.out.println("******* Enter in Substraction Process ********");
+		System.out.println("Substraction");
 
 		String strNo1, strNo2;
 
@@ -87,11 +87,11 @@ public class Calculator {
 
 		int result = no1 - no2;
 
-		System.out.println("Substraction of " + no1 + " and " + no2 + "is: " + result);
+		System.out.println("Substraction of " + no1 + " and " + no2 + " is: " + result);
 	}
 
 	public static void doMultiplication() throws Exception {
-		System.out.println("******* Enter in Multiplication Process ********");
+		System.out.println("Multiplication");
 
 		String strNo1, strNo2;
 
@@ -108,11 +108,11 @@ public class Calculator {
 
 		int result = no1 * no2;
 
-		System.out.println("Multiplication of " + no1 + " and " + no2 + "is: ");
+		System.out.println("Multiplication of " + no1 + " and " + no2 + " is: ");
 	}
 
 	public static void doDivision() throws Exception {
-		System.out.println("******* Enter in Dividion Process ********");
+		System.out.println("Division");
 
 		String strNo1, strNo2;
 
@@ -129,6 +129,6 @@ public class Calculator {
 
 		float result = no1 / no2;
 
-		System.out.println("division of " + no1 + " and " + no2 + "is: " + result);
+		System.out.println("division of " + no1 + " and " + no2 + " is: " + result);
 	}
 }
