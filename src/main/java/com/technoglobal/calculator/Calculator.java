@@ -52,6 +52,8 @@ public class Calculator {
     public static void doAddition() throws Exception{
 	    System.out.println("******* Enter in Addition Process ********");
 	    
+	    String strNo1, strNo2;
+	    
 	    System.out.println("Enter number: ");
 	    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	    strNo1 = br.readLine();
